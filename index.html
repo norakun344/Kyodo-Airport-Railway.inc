@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京堂空港鉄道株式会社</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-primary text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <img src="logo.png" alt="京堂空港鉄道株式会社ロゴ" class="img-fluid">
+                </div>
+                <div class="col-md-9">
+                    <h1 class="display-4">京堂空港鉄道株式会社</h1>
+                    <p class="lead">高山鉄道ホールディングスの完全子会社</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">会社概要</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">サービス</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#news">ニュース</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container my-5">
+        <section id="about" class="mb-5">
+            <h2 class="text-primary">会社概要</h2>
+            <p class="fs-5">京堂空港鉄道株式会社は、高山鉄道ホールディングスの完全子会社として、空港と都市部を結ぶ鉄道サービスを提供しています。私たちは、安全で快適な移動手段を通じて、地域の発展とお客様の満足を追求します。</p>
+            <p>私たちの使命は、最新の技術とサービスで、空港アクセスをより便利にすることです。</p>
+        </section>
+        <section id="services" class="mb-5">
+            <h2 class="text-primary">サービス</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">空港アクセス鉄道</h5>
+                            <p class="card-text">空港と主要駅を結ぶ高速鉄道サービス。快適な座席と短時間での移動を実現します。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">高速列車サービス</h5>
+                            <p class="card-text">都市間を高速で結ぶ列車。ビジネスや観光に最適です。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">貨物輸送</h5>
+                            <p class="card-text">効率的な貨物輸送サービス。信頼性の高い物流を提供します。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="news" class="mb-5">
+            <h2 class="text-primary">ニュース</h2>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">新路線開業のお知らせ</h5>
+                        <small>2026年5月10日</small>
+                    </div>
+                    <p class="mb-1">新しい空港アクセス路線が開業しました。</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">安全対策の強化</h5>
+                        <small>2026年4月15日</small>
+                    </div>
+                    <p class="mb-1">最新の安全システムを導入しました。</p>
+                </a>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="text-primary">お問い合わせ</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>住所:</strong> 京堂府京堂市中区京駅1丁目1-1</p>
+                    <p><strong>電話:</strong> 052-XXX-XXXX</p>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">お名前</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">メールアドレス</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">メッセージ</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">送信</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p>&copy; 2026 京堂空港鉄道株式会社. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
